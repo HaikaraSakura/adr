@@ -1,0 +1,30 @@
+{
+  "name": "haikara/adr",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Haikara\\Adr\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Haikara\\Adr\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=8.0.0 <8.4.0",
+    "psr/http-message": ">=1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "nyholm/psr7": "^1.6",
+    "nyholm/psr7-server": "^1.0",
+    "haikara/typewriter": "^0.1.0"
+  },
+  "repositories": {
+    "haikara/typewriter": {
+      "type": "vcs",
+      "url": "https://github.com/HaikaraSakura/typewriter"
+    }
+  }
+}
